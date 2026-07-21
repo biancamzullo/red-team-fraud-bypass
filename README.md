@@ -132,6 +132,7 @@ To replicate the end-to-end active defense simulation:
    git clone [https://github.com/YOUR_USERNAME/red-team-fraud-bypass.git](https://github.com/biancamzullo/red-team-fraud-bypass.git)
    cd red-team-fraud-bypass
 2. **Execute the pipeline sequence:**
+    ``` bash
     python src/train_ensemble.py          # 1. Compile the baseline defense models
     python src/red_team_agent.py          # 2. Runs the heuristic boundary attack
     python src/genetic_attacker.py        # 3. Runs the adaptive evolutionary simulator
