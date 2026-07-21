@@ -120,7 +120,7 @@ Upon retraining, the hardened ensemble successfully intercepted all previously e
     ├── genetic_attacker.py  # Adaptive evolutionary breeding simulator
     ├── visualize_boundary.py # PCA decision boundary rendering script
     └── adversarial_retraining.py # Vulnerability patch & model hardening
-    
+```
 ---
 
 ## 7. Execution Protocol
