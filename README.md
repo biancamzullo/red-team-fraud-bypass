@@ -107,6 +107,7 @@ Upon retraining, the hardened ensemble successfully intercepted all previously e
 
 ## 6. Repository Structure
 
+```text
 ├── assets/                  # High-resolution boundary visualizations
 ├── data/                    # Local raw dataset files (Git ignored)
 ├── models/                  # Serialized pkl components & target data vectors
@@ -119,7 +120,7 @@ Upon retraining, the hardened ensemble successfully intercepted all previously e
     ├── genetic_attacker.py  # Adaptive evolutionary breeding simulator
     ├── visualize_boundary.py # PCA decision boundary rendering script
     └── adversarial_retraining.py # Vulnerability patch & model hardening
-
+    
 ---
 
 ## 7. Execution Protocol
